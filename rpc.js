@@ -7,3 +7,4 @@ var server = dnode({
     cb(geoip.lookup(ip));
   }
 }).listen(process.env.PORT || 5004);
+console.log('listen on ', process.env.PORT);
