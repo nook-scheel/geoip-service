@@ -1,1 +1,1 @@
-web: node rpc.js
+worker: node rpc.js
